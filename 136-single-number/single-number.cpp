@@ -8,7 +8,7 @@ public:
             seen.erase(num);           // if that number is present then delete from set
             
            }else{
-           seen.insert(num);}
-       } return *seen.begin();
+           seen.insert(num);} //if not then insert it into the set
+       } return *seen.begin(); // the only number in the set if the non duplicate number
     }
 };
